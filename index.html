@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع سفر وسياحة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- رأس الموقع -->
+    <header>
+        <div class="logo">
+            <h1>موقع السفر والسياحة</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#destinations">الوجهات</a></li>
+                <li><a href="#packages">الباقات السياحية</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم البطل (Hero Section) -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>اكتشف أجمل الوجهات السياحية</h2>
+            <p>رحلات مذهلة في أفضل الأماكن حول العالم</p>
+            <a href="#contact" class="btn">احجز الآن</a>
+        </div>
+    </section>
+
+    <!-- قسم الوجهات السياحية -->
+    <section id="destinations" class="destinations">
+        <h2>أفضل الوجهات السياحية</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="مصر">
+                <h3>مصر</h3>
+                <p>استمتع بالرحلات إلى الأهرامات والمعابد القديمة.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="إيطاليا">
+                <h3>إيطاليا</h3>
+                <p>جولات سياحية في روما وفينيسيا ومدن ساحرة أخرى.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="اليابان">
+                <h3>اليابان</h3>
+                <p>استكشف الثقافة اليابانية والمناظر الطبيعية الجميلة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الباقات السياحية -->
+    <section id="packages" class="packages">
+        <h2>باقاتنا السياحية</h2>
+        <div class="package-list">
+            <div class="package">
+                <h3>جولة إلى الأهرامات</h3>
+                <p>جولة سياحية لمدة 3 أيام في مصر.</p>
+                <button>احجز الآن</button>
+            </div>
+            <div class="package">
+                <h3>جولة في روما</h3>
+                <p>5 أيام في قلب مدينة روما.</p>
+                <button>احجز الآن</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <p>&copy; 2024 موقع السفر والسياحة. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
